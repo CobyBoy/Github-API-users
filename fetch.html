@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>fecth API</title>
+</head>
+<body>
+    <div class="input-container">
+        <h1>Github search</h1>
+        <input type="text" class="search" onfocus="this.value=''" placeholder="Search for a user" autofocus required>
+        <input id="button" type="button" value="Get user" onclick="showUser('search')"></input>
+    </div>
+    
+    <div id="container">
+        
+    </div>
+
+    <script src="fetch.js">
+    </script>
+</body>
+</html>
